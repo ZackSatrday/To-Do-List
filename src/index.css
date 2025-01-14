@@ -1,0 +1,102 @@
+/* <---------------To-Do-List-------------------> */
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .to-do-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  body{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+    background-image: url("bgTo.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height:100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover
+  }
+
+  h1{
+    background-color: #a8d6f1;
+    color: #0098ef;
+    border: 5px solid #0910d9;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 20px;
+  }
+  
+  button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  .add-button{
+    color: white;
+    background-color: rgb(24, 238, 0);
+    margin: 5px;
+  }
+  .add-button:hover{
+    background-color: rgba(252, 35, 35, 0.902);
+  }
+
+  .prior{
+    color: white;
+    background-color: rgb(24, 238, 0);
+    margin: 5px;
+    padding: 2px;
+    border: 5px;
+  }
+  .proir:hover{
+    background-color: rgba(252, 35, 35, 0.902);
+  }
+  
+  .delete-button{
+    background-color: rgba(252, 35, 35, 0.902);
+    color: rgb(255, 255, 255);
+  }
+  .delete-button:hover{
+    background-color: rgb(255, 0, 0);
+  }
+  
+  input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    height: 50px;
+    font-size: 1.5em;
+    border: 2px solid;
+    border-radius: 5px;
+    font-family: "Playwrite GB S", cursive;
+  }
+  
+  ol{
+    margin-top: 10px;
+    width: 40%;
+  }
+  
+  ol li{
+    width: 100%;
+    color: #220093;
+    background-color: #ffac93;
+    margin: 5px 0px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
